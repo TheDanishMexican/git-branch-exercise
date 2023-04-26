@@ -7,6 +7,11 @@ function start() {
   anotherFunction();
 }
 
-function anotherFunction(); {
-    console.log("This is another function");
+function anotherFunction() {
+  console.log("This is another function");
+  thirdFunction();
+}
+
+function thirdFunction() {
+  console.log("Third function");
 }
